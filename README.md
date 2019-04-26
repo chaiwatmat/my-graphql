@@ -1,19 +1,17 @@
-example code from
-=======================
-https://engineering.thinknet.co.th/หัดเขียน-api-service-ด้วย-graphql-part-2-bdbb4eea9beb
+# example code from
 
+<https://engineering.thinknet.co.th/หัดเขียน-api-service-ด้วย-graphql-part-2-bdbb4eea9beb>
 
-how to run
-=============
+## how to run
+
 - start mongodb first
-- npm install
-- yarn dev
+- `npm install`
+- `yarn dev`
 - open http://localhost:4000/graphiql
 
+## create team
 
-create team
-==================
-```
+```graphql
 mutation{
     createTeam(
         input: {
@@ -53,9 +51,9 @@ mutation{
 }
 ```
 
-search team
-=============
-```
+## search team
+
+```graphql
 query{
     teams(
         input: {
