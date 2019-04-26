@@ -13,6 +13,7 @@ how to run
 
 create team
 ==================
+```
 mutation{
     createTeam(
         input: {
@@ -50,10 +51,11 @@ mutation{
         }
     }
 }
-
+```
 
 search team
 =============
+```
 query{
     teams(
         input: {
@@ -87,3 +89,4 @@ query{
         }
     }
 }
+```
